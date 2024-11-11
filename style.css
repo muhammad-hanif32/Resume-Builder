@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+}
+.container , #resumePage{
+    width: 50%;
+    max-width: 650px;
+    margin: auto;
+    background-color: rgb(160, 186, 209);
+    border-radius: 20px;
+    padding: 25px;
+}
+button{
+    padding: 0.65em 1.0em;
+    margin-top: 25px;
+    border: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    background-color: rgb(41, 82, 82);
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 25px;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+    color: rgb(177, 101, 57);
+    font-size: 1.1em;
+}
+
+textarea{
+    height: 130px;
+    border-radius: 10px;
+}
+input[type="text"], input[type="email"],textarea{
+    width: 100%;
+    padding: 0.85em;
+    margin-top: 0.5em;
+    border: 2px solid rgb(59, 59, 59);
+    box-sizing: border-box;
+}
+.hidden{
+    display: none;
+}
+#resumePage img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(78, 168, 101);
+}
+#resumePage h1{
+    text-align: center;
+    color: rgb(17, 124, 124);
+}
+#resumePage h2{
+    color: rgb(84, 242, 253);
+    text-align: left;
+}
+#resumeContent h2{
+    color: rgb(20, 171, 182);
+}
